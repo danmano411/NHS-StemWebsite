@@ -3,16 +3,16 @@ import { SearchRounded } from '@mui/icons-material'
 
 const Header = () => {
   return (
-    <header className="flex flex-row justify-between items-center py-4 px-8 bg-sfgreen w-full text-white text-lg">
+    <header className="flex flex-row justify-between items-center py-4 px-8 bg-sfgreen w-full text-sfoffwhite text-lg font-medium">
       <div className="flex-1 flex flex-row gap-8 justify-start items-center">
         <a href="#home" className="no-underline text-inherit">Explore</a>
         <div className='flex flex-row justify-start items-center relative w-full'>
           <input
             type="text"
             placeholder="Search..."
-            className="p-2 pl-10 border border-neutral-200 text-red rounded-lg w-fit focus:w-full focus:border-white"
+            className="p-2 pl-10 border border-neutral-200 text-red rounded-lg w-fit focus:w-full focus:border-sfoffwhite font-normal"
           /> 
-          <button className="absolute left-3 text-white" ><SearchRounded/></button>
+          <button className="absolute left-3 text-sfoffwhite" ><SearchRounded/></button>
         </div>     
       </div>
       <div className="font-bold text-xl text-center flex-1">Logo(x2)</div>
